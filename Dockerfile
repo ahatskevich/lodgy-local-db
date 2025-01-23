@@ -21,5 +21,4 @@ COPY start.sh /usr/local/bin/start.sh
 
 RUN chmod +x /usr/local/bin/start.sh
 
-# Устанавливаем скрипт start.sh как команду по умолчанию
 CMD ["/usr/local/bin/start.sh"]
